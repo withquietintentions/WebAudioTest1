@@ -2,9 +2,7 @@ var http = require('http');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('Hello World Again!');
-  <p><input type="button" onclick="VolumeSample.toggle();" value="Play/Pause"</p>
-  <p><input type="range" min="0" max="100" value"100" output="vloumneSample.changeVolumne(this);"==$0></p>
+  res.end('Where is my audio?');
 }).listen(8080);
 
 
